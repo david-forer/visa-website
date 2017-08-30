@@ -1,7 +1,7 @@
 
 
  body {
-	background: url(/img/japan.jpg) no-repeat center center fixed;
+	background: url(../img/japan.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -9,6 +9,7 @@
   }
 
 header {
+	padding-top: 30px;
     width: 275px;
     margin: auto;
 }
@@ -19,6 +20,54 @@ h1, h3 {
 	padding-bottom: 32px;
 	text-shadow: 1px 1px 2px #D9CFCF;
 
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	display:flex;
+	}
+
+ul li {
+	list-style: none;
+	position: center;
+	list-style:none;
+	color: #ffffff;
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: 12px;
+}
+
+
+.icons {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a {
+	color:purple;
+}
+
+a.twit:hover {
+	color: blue;
+}
+
+a.face:hover {
+	color:black;
+}
+
+a.snap:hover {
+	color:yellow;
+}
+
+a.pin:hover {
+	color:green;
+}
+
+a.git:hover {
+	color:red;
 }
 
   
