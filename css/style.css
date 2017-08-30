@@ -39,7 +39,7 @@ ul li {
 }
 
 
-.icons {
+footer {
 	position: absolute;
 	top: 30%;
 	left: 50%;
@@ -49,9 +49,13 @@ ul li {
 a {
 	color:purple;
 }
+a:hover {
+	cursor: pointer;
+}
 
 a.twit:hover {
 	color: blue;
+
 }
 
 a.face:hover {
