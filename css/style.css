@@ -54,7 +54,7 @@ footer {
 	position: absolute;
 	bottom: 5%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%);
 }
 
 a {
@@ -91,10 +91,15 @@ iframe {
 display: block;
  margin: auto;     
  align:center; 
+ margin-bottom: 20px;
 }
 
 @media(max-width:568px) {
 	iframe {
 		display:none;
 	}
+	.content {
+		display: none;
+	}
 }
+
