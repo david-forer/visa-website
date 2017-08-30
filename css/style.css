@@ -52,7 +52,7 @@ ul li {
 
 footer {
 	position: absolute;
-	bottom: 0%;
+	bottom: 5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -86,3 +86,15 @@ a.git:hover {
 	color:red;
 }
 
+iframe {
+ 
+display: block;
+ margin: auto;     
+ align:center; 
+}
+
+@media(max-width:568px) {
+	iframe {
+		display:none;
+	}
+}
