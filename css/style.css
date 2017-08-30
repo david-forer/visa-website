@@ -39,7 +39,7 @@ ul li {
 }
 
 
-.icons {
+footer {
 	position: absolute;
 	bottom: 5%;
 	left: 50%;
@@ -49,9 +49,13 @@ ul li {
 a {
 	color:purple;
 }
+a:hover {
+	cursor: pointer;
+}
 
 a.twit:hover {
 	color: blue;
+
 }
 
 a.face:hover {
@@ -73,7 +77,12 @@ a.git:hover {
 iframe {
  
 display: block;
-margin: auto;   
-padding-left: 90px;  
-align:center;
+ margin: auto;     
+ align:center; 
+}
+
+@media(max-width:568px) {
+	iframe {
+		display:none;
+	}
 }
