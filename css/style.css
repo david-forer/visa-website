@@ -41,7 +41,7 @@ ul li {
 
 .icons {
 	position: absolute;
-	top: 30%;
+	bottom: 5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -70,3 +70,10 @@ a.git:hover {
 	color:red;
 }
 
+iframe {
+ 
+display: block;
+margin: auto;   
+padding-left: 90px;  
+align:center;
+}
