@@ -20,7 +20,7 @@ header {
 h1, h3 {
 	text-align: center;
 	margin: 0 auto;
-	padding-bottom: 35px;
+	padding-bottom: 54px;
 	text-shadow: 1px 1px 2px #D9CFCF;
 
 }
@@ -52,7 +52,7 @@ ul li {
 
 footer {
 	position: absolute;
-	bottom: 57%;
+	bottom: 59%;
 	left: 50%;
 	transform: translate(-50%);
 }
